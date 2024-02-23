@@ -20,6 +20,10 @@ namespace VariousTypes
            double dobro = 60;
            decimal dinheiro = 90;
            Console.WriteLine( flauta + "" + dobro + "" + dinheiro);
+           ///Variaveis booleanas
+           bool mentira = false;
+           bool verdade = true;
+           Console.WriteLine(mentira + "" + verdade);
         }
     }
 }
