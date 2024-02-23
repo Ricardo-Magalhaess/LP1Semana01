@@ -12,9 +12,14 @@ namespace VariousTypes
            sbyte sigma = 6;
            Console.WriteLine( num_inteiro + "" + short_int + "" + sigma);
            ///Variaveis char
-           char estrela = '\u2605'
-           char simbolo = '\u2742'
+           char estrela = '\u2605';
+           char simbolo = '\u2742';
            Console.WriteLine("" + estrela + " " + simbolo);
+           ///Variaveis reais 
+           float flauta = 30;
+           double dobro = 60;
+           decimal dinheiro = 90;
+           Console.WriteLine( flauta + "" + dobro + "" + dinheiro);
         }
     }
 }
